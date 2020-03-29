@@ -13,6 +13,8 @@
 		DC8A9F912430A3B000C9289E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8A9F8F2430A3B000C9289E /* Main.storyboard */; };
 		DC8A9F932430A3B000C9289E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8A9F922430A3B000C9289E /* Assets.xcassets */; };
 		DC8A9F962430A3B000C9289E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8A9F942430A3B000C9289E /* LaunchScreen.storyboard */; };
+		DC8A9FB12430ACF800C9289E /* NoRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A9FB02430ACF800C9289E /* NoRecordView.swift */; };
+		DC8A9FB32430AD1B00C9289E /* NoRecordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8A9FB22430AD1B00C9289E /* NoRecordView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DC8A9F922430A3B000C9289E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC8A9F952430A3B000C9289E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC8A9F972430A3B000C9289E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8A9FB02430ACF800C9289E /* NoRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoRecordView.swift; sourceTree = "<group>"; };
+		DC8A9FB22430AD1B00C9289E /* NoRecordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoRecordView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				DC8A9F892430A3B000C9289E /* AppDelegate.swift */,
 				DC8A9F8B2430A3B000C9289E /* SceneDelegate.swift */,
 				DC8A9F8D2430A3B000C9289E /* ViewController.swift */,
+				DC8A9FB02430ACF800C9289E /* NoRecordView.swift */,
+				DC8A9FB22430AD1B00C9289E /* NoRecordView.xib */,
 				DC8A9F8F2430A3B000C9289E /* Main.storyboard */,
 				DC8A9F922430A3B000C9289E /* Assets.xcassets */,
 				DC8A9F942430A3B000C9289E /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8A9FB32430AD1B00C9289E /* NoRecordView.xib in Resources */,
 				DC8A9F962430A3B000C9289E /* LaunchScreen.storyboard in Resources */,
 				DC8A9F932430A3B000C9289E /* Assets.xcassets in Resources */,
 				DC8A9F912430A3B000C9289E /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8A9FB12430ACF800C9289E /* NoRecordView.swift in Sources */,
 				DC8A9F8E2430A3B000C9289E /* ViewController.swift in Sources */,
 				DC8A9F8A2430A3B000C9289E /* AppDelegate.swift in Sources */,
 				DC8A9F8C2430A3B000C9289E /* SceneDelegate.swift in Sources */,
